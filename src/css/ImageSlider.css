@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    display: inline;
+    width: 80%;
+    height: 450px;
+}
+
+.img {
+    width: 10%;
+    height: 100%;
+    margin-right: 10px;
+    object-fit: cover;
+
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.486);
+    transition: all ease-in-out 600ms;
+}
+
+.img:hover {
+    width: 25%;
+}
